@@ -1,0 +1,55 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write src/**/*.tsx",
+    "lint": "eslint src/**/*.tsx",
+    "storybook": "start-storybook -p 6006 --no-dll",
+    "build-storybook": "build-storybook --no-dll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lithin/component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lithin/component-library/issues"
+  },
+  "homepage": "https://github.com/lithin/component-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-typescript": "^7.12.1",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-links": "^6.0.28",
+    "@storybook/addon-storyshots": "^6.0.28",
+    "@storybook/react": "^6.0.28",
+    "@types/styled-components": "^5.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "babel-loader": "^8.2.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "react-is": "^17.0.1",
+    "react-test-renderer": "^17.0.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-intl": "^5.10.0",
+    "styled-components": "^5.2.1"
+  }
+}

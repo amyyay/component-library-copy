@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Button Button Primary 1`] = `
+<button
+  className="sc-bdfBwQ sc-gsTCUz cqCRvF jhlgOl"
+>
+  Hello
+</button>
+`;
+
+exports[`Storyshots Components/Button Button Secondary 1`] = `
+<button
+  className="sc-bdfBwQ sc-dlfnbm cqCRvF hMrZmp"
+  kind="secondary"
+>
+  Hello
+</button>
+`;
+
+exports[`Storyshots Components/Button Button Tertiary 1`] = `
+<button
+  className="sc-bdfBwQ sc-dlfnbm cqCRvF hLSjLw"
+  kind="tertiary"
+>
+  Hello
+</button>
+`;
+
+exports[`Storyshots Components/Button Button Text 1`] = `
+<button
+  className="sc-bdfBwQ sc-dlfnbm cqCRvF jEOCUk"
+  kind="text"
+>
+  Hello
+</button>
+`;

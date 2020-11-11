@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Modal Modal With Centered Header 1`] = `
+<div
+  className="sc-hKgILt emtEeP"
+>
+  <div
+    className="sc-eCssSg JMgbY"
+  >
+    <h3
+      className="sc-jSgupP hEwDqv"
+    >
+      Hello
+    </h3>
+  </div>
+  <div
+    className="sc-gKsewC fJFOVJ"
+  >
+    Some other text
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Modal Modal With Left Header 1`] = `
+<div
+  className="sc-hKgILt emtEeP"
+>
+  <div
+    className="sc-eCssSg JMgbY"
+  >
+    <h3
+      className="sc-jSgupP sytUT"
+    >
+      Hello
+    </h3>
+  </div>
+  <div
+    className="sc-gKsewC fJFOVJ"
+  >
+    Some other text
+  </div>
+</div>
+`;
